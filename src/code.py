@@ -32,23 +32,23 @@ class Script:
     def index(self):
         return self.query('https://www.cnnindonesia.com/')
 
-    # def nasional(self):
-    #     return self.query('https://www.cnnindonesia.com/nasional')
-    # def internasional(self):
-    #     return self.query('https://www.cnnindonesia.com/internasional')
-    # def ekonomi(self):
-    #     return self.query('https://www.cnnindonesia.com/ekonomi')
-    # def olahraga(self):
-    #     return self.query('https://www.cnnindonesia.com/olahraga')
-    #
-    # def teknologi(self):
-    #     return self.query('https://www.cnnindonesia.com/teknologi')
-    #
-    # def hiburan(self):
-    #     return self.query('https://www.cnnindonesia.com/hiburan')
-    #
-    # def social(self):
-    #     return self.query('https://www.cnnindonesia.com/gaya-hidup')
+    def nasional(self):
+        return self.query('https://www.cnnindonesia.com/nasional')
+    def internasional(self):
+        return self.query('https://www.cnnindonesia.com/internasional')
+    def ekonomi(self):
+        return self.query('https://www.cnnindonesia.com/ekonomi')
+    def olahraga(self):
+        return self.query('https://www.cnnindonesia.com/olahraga')
+
+    def teknologi(self):
+        return self.query('https://www.cnnindonesia.com/teknologi')
+
+    def hiburan(self):
+        return self.query('https://www.cnnindonesia.com/hiburan')
+
+    def social(self):
+        return self.query('https://www.cnnindonesia.com/gaya-hidup')
 
     def detail(self, url):
         data = []
