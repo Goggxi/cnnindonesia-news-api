@@ -58,9 +58,11 @@ class Script:
             tag = soup.find('div', class_="detail_text")
             gambar = soup.find('div', class_='media_artikel').find('img').get('src')
             judul = soup.find('h1', class_='title').text
+            tanggal = soup.find('div', class_='date').text
             body = tag.text
             data.append({
                 "judul": judul,
+                "tanggal" : tanggal,
                 "poster": gambar,
                 "body": body,
             })
