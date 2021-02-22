@@ -1,8 +1,5 @@
-## Menggunakan Heroku
-BASE_URL : https://cnnidn-rest-api.herokuapp.com/
-
 ## Pengumunan
-API ini sudah tidak disimpan di server [developeridn.com](https://www.developeridn.com), untuk tetap menggunakan API ini silahkan upload script ini ke server anda
+API ini sudah tidak disimpan di server [developeridn.com](https://www.developeridn.com), untuk tetap menggunakan API ini silahkan upload script ini ke server anda atau gunakan BASE_URL : https://cnnidn-rest-api.herokuapp.com/
 
 # cnnindonesia-news-api
 kumpulan berita dari bergai belahan dunia dan juga dari berbagai kategori
